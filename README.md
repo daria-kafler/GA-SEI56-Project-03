@@ -4,4 +4,17 @@ My contributions in this project were the Index page and Navbar coding and styli
 
 Our team loves teas and coffees, and to celebrate our course cohort and our diverse backgrounds, we built a service to introduce and celebrate different types and preparation methods of teas and coffees from around the world.
 
+<<<<<<< HEAD
 Tools used: MongoDB, Mongoose, Express, React Bootstrap, Node, Git & GitHub, yarn.
+=======
+Oles 
+
+
+sedffa
+
+I forgot to pull!
+new stuff here 
+more new stuff 
+More new stuff added by daria
+Even more stuff from Bex
+>>>>>>> development
