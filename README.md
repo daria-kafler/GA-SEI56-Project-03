@@ -16,15 +16,17 @@ Our team loves teas and coffees, and to celebrate our course cohort and our dive
 
 
  ## The app: “Heiss Drinks” 
-![]()
+![https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/project02screenshot01.png](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/project02screenshot01.png)
+
+![https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/project02screenshot02.png](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/project02screenshot02.png)
 
 You can check it out here >>> [https://sei56-project-3.herokuapp.com/](https://sei56-project-3.herokuapp.com/)
 
-[project copy]
+Our team loves teas and coffees, and to celebrate our course cohort and our diverse backgrounds, we built a service to introduce and celebrate different types and preparation methods of teas and coffees from around the world.
 
- ## Process and challenges
+## Process and challenges
+To be added soon...
 
-[code snippets as examples]
-
- ## Future features
+## Future features
+To be added soon...
 
