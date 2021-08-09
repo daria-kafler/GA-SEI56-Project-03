@@ -30,3 +30,7 @@ To be added soon...
 ## Future features
 To be added soon...
 
+## Acknowledgements
+[Bex Jones](https://github.com/simplythebex)
+[Victoria Olanipekun](https://github.com/victoriaolanipekun)
+[Ole Nascimento](https://github.com/eintrittfrei)
