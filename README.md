@@ -42,6 +42,7 @@ My main responsibilities were the Navbar, Index page to show and filter the diff
 
 ## Challenges
 * When displaying the drinks on the index page, couldn't get filtering to be both on the type of drink as well as its origin. After spendin a full day on it, I had decided to limit the filtering options:
+
 ![Screenshot of commented out code](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/Screenshot%202021-08-10%20at%2016.15.39.png)
 
 * Our team had some trouble working on styling. We chose to all work on the `main.scss` file, but didn't forsee just how accurate we would need to get with tags and class names, so ended up overwriting each other's styling.
@@ -75,18 +76,21 @@ Thankfuly, SASS allows nesting!
     }
 ```
 
+
 ## Individual Wins
 * Successfully advocated for overall idea and design while making sure all contributors were happy and felt heard.
 * To lead during standups to make sure individual tasks are clear and team members are meeting self-imposed deadlines. 
-* Fixed a design element that's been stumping the team for a few days:
-[add screenshot here]
+* Fixed a design element that's been stumping the team for a few days (changed from jpg file to svg):
+
+![Screenshot of horizontal brake bar too short](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/zigzagshort.jpg)
+
 
 ## Bugs
 to be added ...
 
 ## Future features
 * Filter drinks by origin.
-more to be added...
+* more to be added...
 
 ## Acknowledgements
 [Bex Jones](https://github.com/simplythebex) 🧡
