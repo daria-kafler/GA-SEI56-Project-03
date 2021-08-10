@@ -29,6 +29,7 @@ On this we project there were 4 contributors and everything was managed with dai
 
 The team decided to go with the ideas I suggested for the type and design of the app (inspired by the [Weezy frontpage](https://weezy.co.uk/)).
 One of the teammembers made a wireframe 
+
 ![home page wirefarme](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/HomePage.png)
 ![index page wireframe](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/Index%20page.png)
 
