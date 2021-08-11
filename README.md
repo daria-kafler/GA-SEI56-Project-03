@@ -80,17 +80,27 @@ Thankfuly, SASS allows nesting!
 ## Individual Wins
 * Successfully advocated for overall idea and design while making sure all contributors were happy and felt heard.
 * To lead during standups to make sure individual tasks are clear and team members are meeting self-imposed deadlines. 
-* Fixed a design element that's been stumping the team for a few days (changed from jpg file to svg):
+* Fixed a design element that's been stumping the team for a few days, where we couldnt get the zig-zag seperator to cover all screen sizes:
 
-![Screenshot of horizontal brake bar too short](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/zigzagshort.jpg)
+![Screenshot of horizontal break line too short](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/zigzagshort.jpg)
+
+We didn't have any knowledge on SVG and treated SVG files as simple image files, which didn't help. I dove into SVG documentation and examples, and was able to fix the zig-zag line so it covers to full screen. The shape now lost its rounded edges, and I plan to come back and fix that as well in the future. 
+
+![Screenshot of horizontal break line fixed](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/zigzagfixed.png)
+
 
 
 ## Bugs
-to be added ...
+* When checking out default screen should be 'Oops, thing isn't possible yet' instead of 'Successful!'.
+* Error for Login with unregistered email should be 'User/email not found'.
+* Submit function isn't working when registering or logging in.
+* Basket can only be reached via the 'checkout' button on a specific drink. Needs to also link from the navbar.
 
 ## Future features
+* Fix bugs.
 * Filter drinks by origin.
-* more to be added...
+* Improve styling.
+
 
 ## Acknowledgements
 [Bex Jones](https://github.com/simplythebex) 🧡
