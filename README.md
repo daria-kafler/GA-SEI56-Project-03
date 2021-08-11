@@ -7,8 +7,8 @@ My contributions in this project were the Index page and Navbar coding and styli
  * MongoDB & Mongoose
  * Express
  * ReactJS 
+ * Node
  * Bootstrap
- * Node.js
  * Git & GitHub
  
  
