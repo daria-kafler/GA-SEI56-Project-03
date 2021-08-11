@@ -28,8 +28,6 @@ const DisplayChecked = ({ handleChecked }) => {
 
 export default DisplayChecked
 
-
-
 // * ======================================== * //
 //* Dead code cemetary: Keeping this here in case we want to bring back filtering by origin. * //
 

@@ -52,7 +52,7 @@ h3, p {
     .hot {
       .hero-title {
         font-family: "Marko One", serif;
-        font-size: 3.5rem;
+        font-size: 10vw;
         padding-top: 2em;
         padding-left: inherit;
       }
@@ -68,17 +68,26 @@ h3, p {
     }
   }
   
-  .zig-zag {
-    position: relative;
-    z-index: 1;
-    margin-top: -200px;
-    margin-bottom: -200px;
-
-    .figure-img.img-fluid {
-      // margin-right: -50px;
-      width: inherit;
-    }
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
   }
+
+  .separator-top.container-fluid {
+    padding: 0;
+    margin-top: -3vw;
+    left: 0;
+    right: 0;
+    // z-index: 3;
+  }
+
+  .separator-bottom.container-fluid {
+    margin-top: -3vw;
+    padding: 0;
+    left: 0;
+    right: 0;
+  }
+
 
   .choice {
     background-color: $primaryPink;
@@ -539,16 +548,13 @@ h3, p {
 
 
 /* ---------------------------------------------------------------*/
+
 // Index page styling
 
-// * All colours are placwholders atm - Daria
 .index-wrapper.container {
-  // background-color: $primaryGrey;
-  // hero section 
   .sorting-row-wrapper.container {
     margin: 0 30px;
     display: flex;
-    // justify-content: space-between;
   }
   .sorting-buttons {
     display: flex;

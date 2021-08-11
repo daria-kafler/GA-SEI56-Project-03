@@ -3,7 +3,7 @@ import NavHomepage from '../common/NavHomepage'
 import { Link, useHistory } from 'react-router-dom'
 // import AnimatedMap from './AnimatedMap.js'
 import Container from 'react-bootstrap/Container'
-import style from '../../styles/images/style.svg'
+// import style from '../../styles/images/style.svg'
 import Happy from '../../styles/images/Happy.png'
 import Need from '../../styles/images/Need.png'
 import Choose from '../../styles/images/Choose.png'
@@ -56,7 +56,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="homepage">
+      <div className='homepage'>
         <Container fluid className='hero'>
           <NavHomepage />
           <div className='hot'>
@@ -94,81 +94,91 @@ const Home = () => {
             </div>
           </div>
         </Container>
-      
-        <Figure className='zig-zag'>
-          <Figure.Image
-            alt='zig-zag'
-            src={style}
-          /> 
-        </Figure>
-
-        <Container className='divider'></Container>
+        <Container fluid className='separator-top'>
+          <svg viewBox='0 0 1840 200'>
+            <path d='M0 40V0l40 40L80 0l40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40v200H0z'
+              fill="#F9D85F" fillRule="evenodd"></path>
+            {/* <Figure.Image
+              alt='zig-zag'
+              src={style}
+            />  */}
+          </svg>
+        </Container>
+        <Container fluid className='separator-bottom'>
+          <svg viewBox='0 0 1840 200'>
+            <path d='M0 40V0l40 40L80 0l40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40 40 40 40-40v200H0z'
+              fill="#F7CAC7" fillRule="evenodd">
+            </path>
+          </svg>
+        </Container>
 
         <Container fluid className='choice'>
-          <Row>
-            <Col xs={12} md={8}>
-              <div className='choice-wrapper'>
-                <div className='drink'>
-                  <h2>Tea Or Coffee,
-                    <br/>We Have You covered.
-                  </h2>
+          <Container>
+            <Row>
+              <Col xs={12} md={8}>
+                <div className='choice-wrapper'>
+                  <div className='drink'>
+                    <h2>Tea Or Coffee,
+                      <br/>We Have You covered.
+                    </h2>
+                  </div>
+                  <div className='covered'>
+                    <p>We are Heiss - a revolutionary hot drink service that delivers quality coffee or tea you never even heard of! 
+                      <br/>With our carefully curated products, we&#39;ve got you covered: from Pakistani Pink Tea to Maghrebi Spiced Mint Tea and Cafe de Olla, just choose browse and order.</p>
+                  </div>
                 </div>
-                <div className='covered'>
-                  <p>We are Heiss - a revolutionary hot drink service that delivers quality coffee or tea you never even heard of! 
-                    <br/>With our carefully curated products, we&#39;ve got you covered: from Pakistani Pink Tea to Maghrebi Spiced Mint Tea and Cafe de Olla, just choose browse and order.</p>
-                </div>
-              </div>
 
-              <CardGroup >
-                <Card style={{ width: '20rem' }} className="need-choose-receive">
-                  <Card.Img variant='top' />
-                  <Figure.Image
-                    alt='Need'
-                    src={Need}
-                  />
-                  <Card.Body>
-                    <Card.Title>1. Need</Card.Title>
-                    <Card.Text>
+                <CardGroup >
+                  <Card style={{ width: '20rem' }} className="need-choose-receive">
+                    <Card.Img variant='top' />
+                    <Figure.Image
+                      alt='Need'
+                      src={Need}
+                    />
+                    <Card.Body>
+                      <Card.Title>1. Need</Card.Title>
+                      <Card.Text>
                     Quality Drinks
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
 
-                <Card style={{ width: '20rem' }} className="need-choose-receive">
-                  <Card.Img variant='top' />
-                  <Figure.Image
-                    alt='Choose'
-                    src={Choose}
-                  />
-                  <Card.Body>
-                    <Card.Title>2. Choose</Card.Title>
-                    <Card.Text>
+                  <Card style={{ width: '20rem' }} className="need-choose-receive">
+                    <Card.Img variant='top' />
+                    <Figure.Image
+                      alt='Choose'
+                      src={Choose}
+                    />
+                    <Card.Body>
+                      <Card.Title>2. Choose</Card.Title>
+                      <Card.Text>
                     From Carefully <br/> Curated Products
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-                <Card style={{ width: '20rem' }} className="need-choose-receive">
-                  <Card.Img variant='top' />
-                  <Figure.Image
-                    alt='Receive'
-                    src={Receive}
-                  />
-                  <Card.Body>
-                    <Card.Title>3. Receive</Card.Title>
-                    <Card.Text>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card style={{ width: '20rem' }} className="need-choose-receive">
+                    <Card.Img variant='top' />
+                    <Figure.Image
+                      alt='Receive'
+                      src={Receive}
+                    />
+                    <Card.Body>
+                      <Card.Title>3. Receive</Card.Title>
+                      <Card.Text>
                     Within Minutes 
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
-            </Col>
-            <Col xs={12} md={4}><div className='happy'>
-              <Figure.Image
-                alt='Happy'
-                src={Happy}
-              /> 
-            </div></Col>
-          </Row>
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </CardGroup>
+              </Col>
+              <Col xs={12} md={4}><div className='happy'>
+                <Figure.Image
+                  alt='Happy'
+                  src={Happy}
+                /> 
+              </div></Col>
+            </Row>
+          </Container>
         </Container>
 
         <Container fluid className='room'>

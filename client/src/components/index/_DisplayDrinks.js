@@ -10,7 +10,6 @@ const DisplayDrinks = ({ drinks, filteredDrinks  }) => {
   console.log('FILTERED DRINKS->', filteredDrinks)
 
   // const filteredLife = Object.assign(filteredOrigins, ...filteredDrinks)
-
   // console.log('FILTERED LIFE->', filteredLife)
   
   //! Both arrays filtering just fine but can display only one filtered verison at a time
