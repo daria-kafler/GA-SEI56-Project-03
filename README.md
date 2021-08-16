@@ -25,8 +25,8 @@ You can check it out here >>> [https://sei56-project-3.herokuapp.com/](https://s
 Our team loves teas and coffees, and to celebrate our course cohort and our diverse backgrounds, we built a service to introduce and celebrate different types and preparation methods of teas and coffees from around the world.
 
 ## Approach
-On this we project we were 4 contributors and everything was managed with daily standups and Trello. 
-The team decided to go with the ideas I suggested for the type and design of the app (inspired by the [Weezy frontpage](https://weezy.co.uk/)), and one of the teammembers made a wireframe:
+On this project we were 4 contributors and everything was managed with daily standups and Trello. 
+The team decided to go with the ideas I suggested for the type and design of the app (inspired by the [Weezy frontpage](https://weezy.co.uk/)), and of the teammembers made a wireframe:
 
 ![home page wirefarme](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/HomePage.png)
 ![index page wireframe](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/Index%20page.png)
@@ -36,7 +36,7 @@ We pair-coded the backend set-up for CRUD functionality, and split tasks up and 
 ![project 3 taskboard](https://raw.githubusercontent.com/daria-kafler/GA-SEI56-Project-03/main/client/src/styles/images/project3taskboard.png)
 
 My main responsibilities were the Navbar, Index page which shows and filters the different drinks, and copy for index and frontpage. 
-This was the first time I used React Bootstrap, and I really enjoyed how simply structured it was, making code more readable
+This was the first time I used React Bootstrap, and I really enjoyed how simply structured it was, making code more readable.
 
 ```javascript
 <Container fluid sticky="top" className="nav-container-pages">
@@ -163,7 +163,7 @@ We didn't have any knowledge on SVG and treated SVG files as simple image files,
 * Improve styling.
 
 ## Key takeaways
-* Our team was too excited get to coding, whne we could have taken more time to plan out the front-end.
+* Our team was too excited to get to coding, when we could have taken more time to plan out the front-end.
 * Figma is a great tool and I should learn to use it!
 * Working in a team is a fantastic learning experience- Not only in communicating and accomodating others, but also learning to accept others help and support.
 * Deadlines help to adopt a 'good enough' mentality vs 'need to make it perfect' (which risks not shipping anything at all).
